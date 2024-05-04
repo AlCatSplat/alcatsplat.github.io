@@ -1,7 +1,16 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Welcome</h1>
-<p>Welcome to CatSplat land.</p>
-</body>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>CatSplat's Page</title>
+	<body>
+		<h1>Welcome</h1>
+		<p>Welcome to CatSplat land.</p>
+		<p id="date"></p>
+		<span>Current status:</span><strong> AlCatSplat is away on vacation, with <em>no internet access</em>, and will be unavailable to contact until June 3rd!</strong>
+		<script>
+			document.getElementById("date").innerHTML = Date();
+		</script>
+	</body>
 </html>
