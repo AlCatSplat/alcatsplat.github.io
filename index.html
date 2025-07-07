@@ -1,31 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="author" content="AlCatSplat">
-		<meta name="description" content="This is AlCatSplat's personal GitHub page.">
-		<title>CatSplat's Page</title>
-		<link rel="stylesheet" href="styles.css">
-	</head>
-	<body>
-		<noscript>Enable JavaScript or perish.</noscript>
-		<h1>Welcome</h1>
-		<p>Welcome to CatSplat land.</p>
-		<p id="date"></p>
-		<span>Current status:</span><strong> New and exciting content is coming soon! Stay tuned!</strong>
-		<div class="container">
-			<img src="cat.jpg" width="522" height="694" alt="A friendly desert feline.">
-			<div class="content">A friendly desert feline.</div>
-		</div>
-		<div class="footer">
-			<a href="index.html">Home</a>
-			<a href="about.html">About</a>
-			<a href="news.html">News</a>
-		</div>
-		<p>Website created by AlCatSplat.</p>
-		<script>
-			document.getElementById("date").innerHTML = Date();
-		</script>
-	</body>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="AlCatSplat">
+	<meta name="description" content="This is AlCatSplat's personal GitHub page.">
+	<title>CatSplat's Page</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<noscript>Enable JavaScript or perish.</noscript>
+	<h1>Welcome</h1>
+	<p>Welcome to CatSplat land.</p>
+	<p id="date"></p>
+	<span>Current status:</span><strong> New and exciting content is coming soon! Stay tuned!</strong>
+	<div class="container">
+		<img src="cat.jpg" width="522" height="694" alt="A friendly desert feline.">
+		<div class="content">A friendly desert feline.</div>
+	</div>
+	<div class="footer">
+		<a href="index.html">Home</a>
+		<a href="about.html">About</a>
+		<a href="news.html">News</a>
+	</div>
+	<p>Website created by AlCatSplat.</p>
+	<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+	<script>
+		kofiWidgetOverlay.draw('alcatsplat', {
+			'type': 'floating-chat',
+			'floating-chat.donateButton.text': 'Support me',
+			'floating-chat.donateButton.background-color': '#00b9fe',
+			'floating-chat.donateButton.text-color': '#fff'
+		});
+	</script>
+	<script>
+		document.getElementById("date").innerHTML = Date();
+	</script>
+</body>
 </html>
