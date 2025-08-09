@@ -1,3 +1,9 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
 img {
 	display: block;
 	width: auto;
@@ -7,12 +13,98 @@ img {
 	padding-top: 0.5em;
 }
 
-.container {
+.header {
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+	padding-left: 40px;
+	background-color: sandybrown;
+	
+}
+
+.navbar {
+	display: flex;
+	gap: 20px;
+	background-color: navajowhite;
+	border-radius: 6px;
+	padding: 10px;
+	padding-left: 40px;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: black;
+	font-family: "Roboto", sans-serif;
+	font-size: 24px;
+}
+
+.footer {
+	background-color: black;
+	color: white;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 20px;
+	border-radius: 3px;
+	padding: 50px;
+	padding-top: 30px;
+	font-family: "Roboto", sans-serif;
+}
+
+body {
+	background-color: seashell;
+}
+
+.maincontain {
+	display: flex;
+}
+
+.mainbody {
+	display: inline-block;
+	background-color: white;
+	padding-left: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-left: 150px;
+	border-radius: 12px;
+	flex: 1;
+}
+
+.mainbody h1, .sidebar h1 {
+	padding-bottom: 20px;
+	font-family: "Roboto", sans-serif;
+}
+
+.mainbody p, .sidebar p {
+	padding-bottom: 30px;
+	font-family: "Archivo", sans-serif;
+	line-height: 1.5;
+}
+
+.sidebar {
+	display: inline-block;
+	background-color: white;
+	width: 30vw;
+	margin-left: 50px;
+	margin-right: 150px;
+	border-radius: 12px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.image1 {
 	position: relative;
 	max-width: 800px;
 }
 
-.container .content {
+.image1 .content {
 	position: absolute;
 	bottom: 0;
 	background: rgba(255, 255, 255, 0.5);
@@ -20,4 +112,46 @@ img {
 	width: 100%;
 	padding: 20px;
 	font-size: 16px;
+}
+
+.jswarning {
+	display: flex;
+	align-items: center;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: gold;
+	background-color: gold;
+	color: dimgray;
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.jswarning-text {
+	display: inline-block;
+	padding: 10px;
+}
+
+.small-icon {
+	width: 16px;
+	display: flex;
+	flex-shrink: 0;
+	transform: translateY(-5px);
+	margin-right: 0px;
+	margin-left: 15px;
+}
+
+.title {
+	font-family: "Bungee";
+	font-size: 96px;
+	margin: 0;
+}
+
+.comingsoon {
+	font-family: "Roboto", sans-serif;
+	font-size: 150px;
+	text-align: center;
+	/*background-color: white;*/
+	margin-left: 150px;
+	margin-right: 150px;
 }

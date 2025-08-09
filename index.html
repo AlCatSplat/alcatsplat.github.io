@@ -7,32 +7,64 @@
 	<meta name="description" content="This is AlCatSplat's personal GitHub page.">
 	<title>CatSplat's Page</title>
 	<link rel="stylesheet" href="styles.css">
+	<script src="fonts.js"></script>
 </head>
 <body>
-	<noscript>Enable JavaScript or perish.</noscript>
-	<h1>Welcome</h1>
-	<p>Welcome to CatSplat land.</p>
-	<p id="date"></p>
-	<span>Current status:</span><strong> New and exciting content is coming soon! Stay tuned!</strong>
-	<div class="container">
-		<img src="cat.jpg" width="522" height="694" alt="A friendly desert feline.">
-		<div class="content">A friendly desert feline.</div>
+	<noscript>
+		<div class="jswarning">
+			<img src="warning.png" class="small-icon">
+			<span class="jswarning-text">Hey there! It seems you forgot to enable JavaScript. This page uses cool stuff that may not work properly without it. Just a heads up...</span>
+		</div>
+	</noscript>
+	<div class="header">
+		<h1 class="title">CatSplat</h1>
 	</div>
-	<div class="footer">
+	<div class="navbar">
 		<a href="index.html">Home</a>
 		<a href="about.html">About</a>
 		<a href="news.html">News</a>
 	</div>
-	<p>Website created by AlCatSplat.</p>
-	<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
-	<script>
-		kofiWidgetOverlay.draw('alcatsplat', {
-			'type': 'floating-chat',
-			'floating-chat.donateButton.text': 'Support me',
-			'floating-chat.donateButton.background-color': '#00b9fe',
-			'floating-chat.donateButton.text-color': '#fff'
-		});
-	</script>
+
+	<div class="maincontain">
+		<div class="mainbody">
+			<h1>Today's featured image:</h1>
+			<div class="image1">
+				<img src="cat.webp" alt="A friendly desert feline.">
+				<div class="content">A friendly desert feline.</div>
+			</div>
+		</div>
+		<div class="sidebar">
+			<h1>Latest updates:</h1>
+			<p>Interesting information will be displayed here. Check back regularly!</p>
+			<p>[Verse 1]<br>
+				Skibidi, skibidi, hawk tuah hawk<br>
+				Skibidi king who gives out blumpkins<br>
+				Edging and gooning and learning to munt<br>
+				Dripping cheese all over my lunch<br>
+
+				[Chorus]<br>
+				Skibidi, skibidi, hawk tuah hawk<br>
+				Skibidi boom or skibidi doom<br>
+				Edging and gooning in Ohio square<br>
+				Stinky backshot air<br>
+
+				[Verse 2]<br>
+				On my grind time, drink a Prime time<br>
+				To mog the Ohio away<br>
+				Bulkan rage time, low taper fade time<br>
+				We go rizzing in the sigma's way<br>
+
+				[Chorus]<br>
+				Giddy up sigma horse, stretch out your meat<br>
+				Griddy around the ops<br>
+				Knee surgery is tomorrow and I feel skibidi<br>
+			Like a skibidi gyatt</p>
+		</div>
+	</div>
+
+	<div class="footer">
+		<p>Website created by AlCatSplat.</p>
+	</div>	
 	<script>
 		document.getElementById("date").innerHTML = Date();
 	</script>
