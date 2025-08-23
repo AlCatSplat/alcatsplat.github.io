@@ -5,51 +5,44 @@
 }
 
 img {
-	display: block;
-	width: auto;
-	height: 100%;
-	max-width: 96vw;
-	max-height: 100vh;
-	padding-top: 0.5em;
+	display: inline-block;
+	height: auto;
+	max-width: 100%;
 }
 
 .header {
-	margin-left: 150px;
-	margin-right: 150px;
-	margin-top: 0;
-	margin-bottom: 0;
-	padding: 0;
-	padding-left: 40px;
+	margin-left: 8vw;
+	margin-right: 8vw;
+	padding-left: 2vw;
 	background-color: sandybrown;
-	
 }
 
 .navbar {
 	display: flex;
-	gap: 20px;
+	gap: 1vw;
 	background-color: navajowhite;
 	border-radius: 6px;
-	padding: 10px;
-	padding-left: 40px;
-	margin-left: 150px;
-	margin-right: 150px;
-	margin-bottom: 20px;
-	margin-top: 10px;
+	padding: 0.5vw;
+	padding-left: 2vw;
+	margin-left: 8vw;
+	margin-right: 8vw;
+	margin-bottom: 1vh;
+	margin-top: 0.5vh;
 }
 
 .navbar a {
 	text-decoration: none;
 	color: black;
 	font-family: "Roboto", sans-serif;
-	font-size: 24px;
+	font-size: clamp(0.5rem, 4vw, 1.5rem);
 }
 
 .footer {
 	background-color: black;
 	color: white;
-	margin-left: 150px;
-	margin-right: 150px;
-	margin-top: 20px;
+	margin-left: 8vw;
+	margin-right: 8vw;
+	margin-top: 1vh;
 	border-radius: 3px;
 	padding: 50px;
 	padding-top: 30px;
@@ -62,15 +55,17 @@ body {
 
 .maincontain {
 	display: flex;
+	margin-left: 8vw;
+	margin-right: 8vw;
 }
 
 .mainbody {
 	display: inline-block;
 	background-color: white;
-	padding-left: 50px;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	margin-left: 150px;
+	padding-left: 2vw;
+	padding-right: 2vw;
+	padding-top: 1vw;
+	padding-bottom: 1vw;	
 	border-radius: 12px;
 	flex: 1;
 }
@@ -90,8 +85,6 @@ body {
 	display: inline-block;
 	background-color: white;
 	width: 30vw;
-	margin-left: 50px;
-	margin-right: 150px;
 	border-radius: 12px;
 	padding-left: 50px;
 	padding-right: 50px;
@@ -101,7 +94,6 @@ body {
 
 .image1 {
 	position: relative;
-	max-width: 800px;
 }
 
 .image1 .content {
@@ -143,15 +135,14 @@ body {
 
 .title {
 	font-family: "Bungee";
-	font-size: 96px;
+	font-size: clamp(4rem, 8vw, 6rem);
 	margin: 0;
 }
 
 .comingsoon {
 	font-family: "Roboto", sans-serif;
-	font-size: 150px;
+	font-size: clamp(2rem, 8vw, 9rem);
 	text-align: center;
-	/*background-color: white;*/
-	margin-left: 150px;
-	margin-right: 150px;
+	margin-left: 8vw;
+	margin-right: 8vw;
 }
