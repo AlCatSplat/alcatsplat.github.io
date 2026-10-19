@@ -4,6 +4,10 @@
 	padding: 0;
 }
 
+h1 {
+	text-align: center;
+}
+
 img {
 	display: inline-block;
 	height: auto;
@@ -135,7 +139,7 @@ body {
 
 .title {
 	font-family: "Bungee";
-	font-size: clamp(4rem, 8vw, 6rem);
+	font-size: clamp(3.5rem, 8vw, 6rem);
 	margin: 0;
 }
 
